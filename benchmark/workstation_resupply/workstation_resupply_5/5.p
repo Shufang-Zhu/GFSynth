@@ -1,0 +1,2 @@
+.inputs: occupied_0 occupied_1 occupied_2 occupied_3 occupied_4
+.outputs: stockroom station_0 station_1 station_2 station_3 station_4 outside_stockroom outside_station_0 outside_station_1 outside_station_2 outside_station_3 outside_station_4 pick_up_part resupply

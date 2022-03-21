@@ -1,0 +1,23 @@
+MONA DFA
+number of variables: 3
+variables: RESUPPLY STATION_0 STATION_1
+orders: 2 2 2
+states: 6
+initial: 0
+bdd nodes: 12
+final: 0 0 -1 -1 -1 1
+behaviour: 0 1 1 9 11 4
+bdd:
+ -1 1 0
+ 0 8 2
+ 1 6 3
+ 2 5 4
+ -1 5 0
+ -1 4 0
+ 2 8 7
+ -1 3 0
+ -1 2 0
+ 0 7 10
+ 1 7 4
+ 0 5 3
+end

@@ -1,0 +1,85 @@
+Directory Structure
+
+Gfsynth -- under folder tool/
+Benchmarks -- under folder benchmark/
+Results -- under folder result/
+Plots genetration -- `python plots.py`
+
+
+
+Experiment Instructions
+
+
+==== Install Gfsynth ====
+
+  Compilation instructions can be found at:
+
+    tool/Gfsynth/INSTALL
+
+
+
+==== Install Strix ====
+
+  Install Strix-20.10. Strix can be found at:
+
+    https://strix.model.in.tum.de/
+
+
+
+==== Install Spot ====
+
+  Install Spot 2.9.6. Spot can be found at:
+
+    https://spot.lrde.epita.fr/
+
+
+    
+==== Experiment Setup ====
+  
+0.1 Put the executable files for running Gfsynth into the same folder:
+
+    cp tool/Gfsynth/build/bin/Gfsynth Gfsynth
+    cp tool/Gfsynth/build/bin/ltlf2fol ltlf2fol
+    cp tool/Gfsynth/submodules/slugs/src/slugs slugs
+    cp -rf tool/Gfsynth/submodules/slugs/tools/StructuredSlugsParser StructuredSlugsParser
+
+0.2 Make sure the executable file for running Strix is reachable. Please use the following command for testing:
+    
+    strix --help
+
+0.3 Make sure the executable file for running Spot is reachable. Please use the following command for testing:
+    
+    ltlfilt --help 
+
+
+
+==== Benchmark Generation ====
+  
+  bash generate_benchmarks.sh
+
+
+
+==== Run Experiments ====
+  
+  The results will be stored in a new folder out/
+  
+0.1 Gfsynth
+
+    python3 local_run_gfsynth.py
+
+0.2 Strix    
+    python3 local_run_reduction_to_ltl.py   
+
+
+
+==== Plots Generation ====
+
+0.1 Please edit plots.py for reading results from folder out/
+
+0.2 Make plots
+
+    python3 plots.py   
+    
+    
+	   
+

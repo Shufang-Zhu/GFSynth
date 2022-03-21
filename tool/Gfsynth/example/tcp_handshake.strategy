@@ -1,0 +1,28 @@
+State 0 with rank (0,0) -> <syn:0, ack:0, syn_ack:0, z0:1, z1:0, z2:0, z3:1, z4:0, z5:1, z6:0, z7:0>
+	With successors : 8, 9
+State 1 with rank (0,0) -> <syn:0, ack:0, syn_ack:1, z0:1, z1:0, z2:0, z3:1, z4:0, z5:1, z6:0, z7:0>
+	With successors : 8, 9
+State 2 with rank (0,0) -> <syn:0, ack:1, syn_ack:0, z0:1, z1:0, z2:0, z3:1, z4:0, z5:1, z6:0, z7:0>
+	With successors : 8, 9
+State 3 with rank (0,0) -> <syn:0, ack:1, syn_ack:1, z0:1, z1:0, z2:0, z3:1, z4:0, z5:1, z6:0, z7:0>
+	With successors : 8, 9
+State 4 with rank (0,0) -> <syn:1, ack:0, syn_ack:0, z0:1, z1:0, z2:0, z3:1, z4:0, z5:1, z6:0, z7:0>
+	With successors : 10
+State 5 with rank (0,0) -> <syn:1, ack:0, syn_ack:1, z0:1, z1:0, z2:0, z3:1, z4:0, z5:1, z6:0, z7:0>
+	With successors : 10
+State 6 with rank (0,0) -> <syn:1, ack:1, syn_ack:0, z0:1, z1:0, z2:0, z3:1, z4:0, z5:1, z6:0, z7:0>
+	With successors : 10
+State 7 with rank (0,0) -> <syn:1, ack:1, syn_ack:1, z0:1, z1:0, z2:0, z3:1, z4:0, z5:1, z6:0, z7:0>
+	With successors : 10
+State 8 with rank (0,0) -> <syn:1, ack:0, syn_ack:0, z0:0, z1:0, z2:1, z3:0, z4:1, z5:0, z6:1, z7:0>
+	With successors : 11, 12
+State 9 with rank (0,0) -> <syn:1, ack:0, syn_ack:1, z0:0, z1:0, z2:1, z3:0, z4:1, z5:1, z6:1, z7:0>
+	With successors : 13
+State 13 with rank (0,0) -> <syn:0, ack:1>
+	With no successors.
+State 10 with rank (0,0) -> <syn:0, ack:0, syn_ack:0, z0:0, z1:1, z2:0, z3:0, z4:1, z5:0, z6:1, z7:0>
+	With successors : 8, 9
+State 11 with rank (0,0) -> <syn:0, ack:0, syn_ack:0, z0:0, z1:0, z2:1, z3:0, z4:1, z5:0, z6:1, z7:0>
+	With successors : 8, 9
+State 12 with rank (0,0) -> <syn:0, ack:0, syn_ack:1, z0:0, z1:0, z2:1, z3:0, z4:1, z5:1, z6:1, z7:0>
+	With successors : 13
