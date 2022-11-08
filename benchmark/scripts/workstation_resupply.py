@@ -30,7 +30,7 @@ else:
                 else lambda i: Next(occupied_pure(i)))
 
     rooms = [stockroom] + [station(i) for i in stations]
-    regions = rooms + map(outside, rooms)
+    regions = rooms + list(map(outside, rooms))
     
     trans = dict([(room, [room, outside(room)]) for room in rooms] +
                  [(outside(room), [room] + [outside(room) for room in rooms])
